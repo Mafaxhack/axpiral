@@ -1,0 +1,230 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e; /* Fundo cinza escuro */
+    color: #ffffff; /* Texto primário */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #121212; /* Cinza carvão */
+    color: #ffffff; /* Texto primário */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333; /* Linha sutil */
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h1 i {
+    margin-right: 10px;
+    font-size: 1.4em;
+    color: #f44336; /* Vermelho */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto primário */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f44336; /* Vermelho */
+}
+
+nav ul li i {
+    margin-right: 8px;
+}
+
+/* Seção principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #2e2e2e; /* Cinza grafite */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Seção de Anúncio */
+#anuncio {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#anuncio h2 {
+    color: #ffffff; /* Texto primário */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#anuncio p {
+    margin: 20px 0;
+    color: #b0b0b0; /* Texto secundário */
+    font-size: 1.2em;
+}
+
+#anuncio a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f44336; /* Vermelho */
+    color: #ffffff; /* Texto primário */
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#anuncio a:hover {
+    background-color: #d32f2f; /* Vermelho mais escuro */
+}
+
+#anuncio i {
+    margin-right: 8px;
+}
+
+/* Seção Sobre */
+#sobre {
+    margin-bottom: 40px;
+}
+
+#sobre h2 {
+    color: #ffffff; /* Texto primário */
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#sobre p {
+    color: #b0b0b0; /* Texto secundário */
+    font-size: 1.2em;
+}
+
+#sobre i {
+    margin-right: 8px;
+}
+
+/* Seção Contato */
+#contato {
+    margin-bottom: 40px;
+}
+
+#contato h2 {
+    color: #ffffff; /* Texto primário */
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#contato p {
+    color: #b0b0b0; /* Texto secundário */
+    font-size: 1.2em;
+}
+
+#contato i {
+    margin-right: 8px;
+}
+
+/* Seção de Planos */
+#planos {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#planos h2 {
+    color: #ffffff; /* Texto primário */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.plano {
+    background-color: #2e2e2e; /* Cinza grafite */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(50% - 40px); /* Dois planos lado a lado */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.plano:hover {
+    background-color: #333; /* Cinza um pouco mais claro */
+}
+
+.plano h3 {
+    color: #ffffff; /* Texto primário */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.preco {
+    color: #f44336; /* Vermelho */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.plano p {
+    color: #b0b0b0; /* Texto secundário */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: #f44336; /* Vermelho */
+    color: #ffffff; /* Texto primário */
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #d32f2f; /* Vermelho mais escuro */
+}
+
+/* Rodapé */
+footer {
+    background-color: #121212; /* Cinza carvão */
+    color: #ffffff; /* Texto primário */
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 2px solid #333; /* Linha sutil */
+}
